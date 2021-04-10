@@ -1,0 +1,106 @@
+nav {
+    background-color: wheat;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+    bottom: 28px;
+    margin-left: -6px;
+    margin-right: -8px;
+}
+
+h1 {
+    display: inline-block;
+    background-color: lightblue;
+    font-family: 'Baloo Da 2', Arial, sans-serif;
+    margin: -7.5px;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text], select, textarea, input[type=email], input[type=tel] {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+}
+
+input[type=submit] {
+    background-color: grey;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(21, 128, 0);
+}
+
+nav a {
+    width: 20px;
+    margin: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: aqua;
+}
+
+h1 img {
+    width: 15%;
+    max-width: 100%;
+    bottom: 0px;
+}
+
+pre {
+    border: 1px solid black;
+    width: 1100px;
+}
+
+div {
+    border: 1px solid black;
+    width: 300px;
+    float: left;
+    margin: 15px;
+    border-radius: 5%;
+}
+
+div img {
+    width: 80%;
+    padding: 15px;
+}
+
+div p {
+    text-align: center;
+}
+
+.price {
+    color: red;
+    font-size: 20px;
+}
+
+#l {
+    text-align: center;
+    font-family: 'Baloo Da 2', Arial, sans-serif;
+    margin: 70px;
+    margin-top: 150px;
+    font-size: 20px;
+}
